@@ -75,6 +75,15 @@ function copy() {
     }, 1200);
 }
 
+
+//Event listeners
 generateEl.addEventListener("click", generatePassword);
 
 copyEl.addEventListener("click", copy);
+
+"keypress paste dragstart drop cut".split(" ").forEach(function(e){
+    lenEl.addEventListener(e, function(e){
+        e.preventDefault();
+        return false;
+    });
+});
