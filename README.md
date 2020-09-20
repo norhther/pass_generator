@@ -1,2 +1,2 @@
 # pass_generator
-Simple password generator with UI
+Simple password made with Vanilla Js
