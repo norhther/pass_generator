@@ -1,0 +1,24 @@
+{
+  "name": "pass_generator",
+  "version": "1.0.0",
+  "description": "Pass generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norhther/pass_generator.git"
+  },
+  "author": "norhther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norhther/pass_generator/issues"
+  },
+  "homepage": "https://github.com/norhther/pass_generator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "path": "^0.12.7"
+  }
+}
