@@ -48,7 +48,10 @@ function generateChunk() {
 
 
 function generatePassword() {
-    const len = lenEl.value;
+    if (lenEl.value > 20) {
+        lenEl.value = 20;
+    }
+    let len = lenEl.value;
     let password = "";
     for (let i = 0; i < len; i++) {
         password += generateChunk();
@@ -81,9 +84,10 @@ generateEl.addEventListener("click", generatePassword);
 
 copyEl.addEventListener("click", copy);
 
+/*
 "keypress paste dragstart drop cut".split(" ").forEach(function(e){
     lenEl.addEventListener(e, function(e){
         e.preventDefault();
         return false;
     });
-});
+});*/
