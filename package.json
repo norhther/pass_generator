@@ -4,8 +4,8 @@
   "description": "Pass generator",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
-  },
+    "start": "node index.js"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/norhther/pass_generator.git"
