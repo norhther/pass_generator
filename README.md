@@ -1,2 +1,4 @@
-# pass_generator
-Simple password generator made with Express
+# Online password generator
+
+💩 Shitty project made with Express.
+http://passw-generator.herokuapp.com/
